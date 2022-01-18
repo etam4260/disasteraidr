@@ -1,9 +1,8 @@
 Package: disasteraidr
-Title: What the Package Does (One Line, Title Case)
+Title: The goal of disasteraidr is to have an easy way to download cleaned data in R from various sources associated with disaster aid allocation in the UNITED STATES. This is an ongoing project with the University of Maryland Hazards and Infrastructures team. Currently ‘cleaned’ datasets come from HUD, NOAA, and FEMA. The main transformations come in CPI adjustments and conversion of row details associated with the location to FIPS/county level resolution. US Territories are left out in some of the dataset such as Guam, Puerto Rico.
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Emmet", "Tam", , "emmet_tam@yahoo.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
