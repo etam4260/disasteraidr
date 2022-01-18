@@ -51,7 +51,7 @@ library(disasteraidr)
 data("hma")
 
 # NOAA Storm Events
-data("noaadata")
+data("noaastorm")
 
 # FEMA Individuals and Household Programs
 data("ihp")

@@ -41,8 +41,7 @@ library(disasteraidr)
 data("hma")
 
 # NOAA Storm Events
-data("noaadata")
-#> Warning in data("noaadata"): data set 'noaadata' not found
+data("noaastorm")
 
 # FEMA Individuals and Household Programs
 data("ihp")
