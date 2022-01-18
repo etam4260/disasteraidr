@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# disasteraidr
+
+<!-- badges: start -->
+<!-- badges: end -->
+## About
+
+The goal of disasteraidr is to have an easy way to download cleaned data in R 
+from various sources associated with disaster aid allocation in the UNITED STATES.
+This is an ongoing project with the University of Maryland 
+Hazards and Infrastructures team. Currently 'cleaned' datasets come 
+from HUD, NOAA, and FEMA
+
+## Installation
+
+You can install the development version of disasteraidr from [Github](https://github.com/) with:
+
+``` r
+install.packages("devtools")
+devtools::install_github("etam4260/disasteraidr")
+```
+
+## Example
+
+This is a basic example which shows you how to load in the data:
+
+```{r example}
+library(disasteraidr)
+# The package currently contains 6 datasets:
+head(data("hma"))
+head(data("noaadata"))
+head(data("ihp"))
+head(data("cdbgdr"))
+head(data("pa"))
+head(data("dd"))
+```
